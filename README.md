@@ -1,4 +1,4 @@
-Program Deteksi Masker Menggunakan Metode Gray Level Co-Occurrence Matrix Berdasarkan Klasifikasi Learning Vector Quantization:
+#Program Deteksi Masker Menggunakan Metode Gray Level Co-Occurrence Matrix Berdasarkan Klasifikasi Learning Vector Quantization
 
 Program deteksi masker menggunakan metode Gray Level Co-Occurrence Matrix (GLCM) berdasarkan klasifikasi Learning Vector Quantization (LVQ) adalah sebuah aplikasi berbasis komputer yang dirancang untuk mengidentifikasi apakah seseorang sedang memakai masker wajah atau tidak. Program ini menggabungkan teknik pengolahan citra dengan kecerdasan buatan untuk melakukan analisis terhadap citra wajah manusia dan memprediksi adanya pemakaian masker atau tidak.
 
