@@ -1,0 +1,97 @@
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_about(object):
+    def setupUi(self, about):
+        about.setObjectName("about")
+        about.resize(640, 480)
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap(
+            "../Deteksi_Masker_Project/assets/icons/mask.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        about.setWindowIcon(icon)
+        about.setStyleSheet(
+            "QDialog#about{background-image:url(E:/Project/Deteksi_Masker_Project/assets/wallpapers/bg1.jpg)}")
+        self.label = QtWidgets.QLabel(about)
+        self.label.setGeometry(QtCore.QRect(10, 40, 621, 51))
+        font = QtGui.QFont()
+        font.setFamily("Richela Kids")
+        font.setPointSize(22)
+        self.label.setFont(font)
+        self.label.setAlignment(QtCore.Qt.AlignCenter)
+        self.label.setWordWrap(True)
+        self.label.setObjectName("label")
+        self.label_2 = QtWidgets.QLabel(about)
+        self.label_2.setGeometry(QtCore.QRect(30, 137, 381, 161))
+        font = QtGui.QFont()
+        font.setFamily("MS Sans Serif")
+        font.setItalic(True)
+        self.label_2.setFont(font)
+        self.label_2.setScaledContents(False)
+        self.label_2.setAlignment(
+            QtCore.Qt.AlignLeading | QtCore.Qt.AlignLeft | QtCore.Qt.AlignVCenter)
+        self.label_2.setWordWrap(True)
+        self.label_2.setObjectName("label_2")
+        self.label_3 = QtWidgets.QLabel(about)
+        self.label_3.setGeometry(QtCore.QRect(10, 80, 621, 31))
+        font = QtGui.QFont()
+        font.setFamily("Yu Gothic")
+        font.setPointSize(14)
+        self.label_3.setFont(font)
+        self.label_3.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_3.setWordWrap(True)
+        self.label_3.setObjectName("label_3")
+        self.label_4 = QtWidgets.QLabel(about)
+        self.label_4.setGeometry(QtCore.QRect(330, 280, 281, 161))
+        font = QtGui.QFont()
+        font.setFamily("MS Sans Serif")
+        font.setItalic(True)
+        self.label_4.setFont(font)
+        self.label_4.setScaledContents(False)
+        self.label_4.setAlignment(
+            QtCore.Qt.AlignRight | QtCore.Qt.AlignTrailing | QtCore.Qt.AlignVCenter)
+        self.label_4.setWordWrap(True)
+        self.label_4.setObjectName("label_4")
+        self.line = QtWidgets.QFrame(about)
+        self.line.setGeometry(QtCore.QRect(10, 154, 20, 131))
+        self.line.setFrameShape(QtWidgets.QFrame.VLine)
+        self.line.setFrameShadow(QtWidgets.QFrame.Sunken)
+        self.line.setObjectName("line")
+        self.line_2 = QtWidgets.QFrame(about)
+        self.line_2.setGeometry(QtCore.QRect(610, 300, 20, 101))
+        self.line_2.setFrameShape(QtWidgets.QFrame.VLine)
+        self.line_2.setFrameShadow(QtWidgets.QFrame.Sunken)
+        self.line_2.setObjectName("line_2")
+        self.label_5 = QtWidgets.QLabel(about)
+        self.label_5.setGeometry(QtCore.QRect(170, 440, 321, 21))
+        font = QtGui.QFont()
+        font.setFamily("Calibri")
+        font.setPointSize(8)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_5.setFont(font)
+        self.label_5.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_5.setWordWrap(True)
+        self.label_5.setObjectName("label_5")
+
+        self.retranslateUi(about)
+        QtCore.QMetaObject.connectSlotsByName(about)
+
+    def retranslateUi(self, about):
+        _translate = QtCore.QCoreApplication.translate
+        about.setWindowTitle(_translate("about", "Deteksi Masker App - About"))
+        self.label.setText(_translate("about", "Deteksi Masker App"))
+        self.label_2.setText(_translate("about", "Aplikasi Deteksi Masker App merupakan aplikasi yang berguna untuk melakukan beberapa proses analisis terkait pengujian data training dan data testing. Aplikasi ini dapat bekerja sebagai sistem deteksi penggunaan masker yang terdapat pada halaman deteksi masker atau \"Testing\". Aplikasi ini mampu melakukan ektraksi fitur dengan metode Gray Leve Co-Occurence Matrix (lGLCM) dan melakukan klasivikasi dengan metode Learning Vector Quantization (LVQ)."))
+        self.label_3.setText(_translate("about", "version v.01"))
+        self.label_4.setText(_translate("about", "Sistem Deteksi Masker App akan sangat berguna untuk melakukan pemantauan dan penertiban protokol kesehatan yang diterapkan oleh pemerintah bagi masyarakat. Penggunaan sistem ini akan lebih aman dan nyaman karena tidak akan terjadi kontak secara langsung."))
+        self.label_5.setText(_translate(
+            "about", "Bulid and powered by : print(\"Teguh Pamungkas\"); "))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    about = QtWidgets.QDialog()
+    ui = Ui_about()
+    ui.setupUi(about)
+    about.show()
+    sys.exit(app.exec_())

@@ -1,0 +1,104 @@
+test_size = 1000
+
+alpha = 0.1
+Epoch_10, Accuracy: 0.538
+Loss = 15.956916293643596
+Epoch_20, Accuracy: 0.592
+Loss = 14.09182556670814 
+Epoch_30, Accuracy: 0.75
+Loss = 8.634706892286554
+Epoch_40, Accuracy: 0.841
+Loss = 5.491690234311135 
+Epoch_50, Accuracy: 0.862
+Loss = 4.766393521161476 
+Epoch_60, Accuracy: 0.874
+Loss = 4.3519282044225465
+Epoch_70, Accuracy: 0.875
+Loss = 4.317391027222497
+Epoch_80, Accuracy: 0.878
+Loss = 4.213774698037765
+Epoch_90, Accuracy: 0.878
+Loss = 4.213774698037765
+Epoch_100, Accuracy: 0.881
+Loss = 4.110158368853032
+alpha = 0.01
+Epoch_10, Accuracy: 0.769
+Loss = 7.978470940380681
+Epoch_20, Accuracy: 0.849
+Loss = 5.215382421944139
+Epoch_30, Accuracy: 0.866
+Loss = 4.628238415581832
+Epoch_40, Accuracy: 0.876
+Loss = 4.282850651632725
+Epoch_50, Accuracy: 0.875
+Loss = 4.317391027222497
+Epoch_60, Accuracy: 0.878
+Loss = 4.213774698037765
+Epoch_70, Accuracy: 0.88
+Loss = 4.144697145247943
+Epoch_80, Accuracy: 0.881
+Loss = 4.110158368853032
+Epoch_90, Accuracy: 0.881
+Loss = 4.110158368853032
+Epoch_100, Accuracy: 0.881
+Loss = 4.110158368853032
+alpha = 0.001
+Epoch_10, Accuracy: 0.869
+Loss = 4.524622086397099
+Epoch_20, Accuracy: 0.876
+Loss = 4.282851451230155
+Epoch_30, Accuracy: 0.876
+Loss = 4.2828522508275855
+Epoch_40, Accuracy: 0.878
+Loss = 4.213774698037765
+Epoch_50, Accuracy: 0.88
+Loss = 4.144697145247943
+Epoch_60, Accuracy: 0.881
+Loss = 4.110158368853032
+Epoch_70, Accuracy: 0.881
+Loss = 4.110158368853032
+Epoch_80, Accuracy: 0.881
+Loss = 4.110158368853032
+Epoch_90, Accuracy: 0.881
+Loss = 4.110158368853032
+Epoch_100, Accuracy: 0.881
+Loss = 4.110158368853032
+
+
+test_size = 2000
+alpha = 0.1
+Epoch_0, Accuracy:50.449999999999996, Loss = 17.113964503275675
+Epoch_10, Accuracy:53.900000000000006, Loss = 15.92237711744997
+Epoch_20, Accuracy:60.050000000000004, Loss = 13.798247166747544
+Epoch_30, Accuracy:74.35000000000001, Loss = 8.859210937847049
+Epoch_40, Accuracy:82.45, Loss = 6.061588840398894
+Epoch_50, Accuracy:85.05, Loss = 5.163593847488815
+Epoch_60, Accuracy:85.75, Loss = 4.921826810510305
+Epoch_70, Accuracy:86.1, Loss = 4.8009426923229785
+Epoch_80, Accuracy:86.2, Loss = 4.766404315726782
+Epoch_90, Accuracy:86.2, Loss = 4.766404315726782
+Epoch_100, Accuracy:86.3, Loss = 4.7318655393318725
+alpha = 0.01
+Epoch_0, Accuracy:62.050000000000004, Loss = 13.107472838245478
+Epoch_10, Accuracy:76.5, Loss = 8.11663124334362
+Epoch_20, Accuracy:82.75, Loss = 5.957976109402597
+Epoch_30, Accuracy:85.0, Loss = 5.180865234679844
+Epoch_40, Accuracy:85.95, Loss = 4.852749657519199
+Epoch_50, Accuracy:86.15, Loss = 4.783673304125523
+Epoch_60, Accuracy:86.2, Loss = 4.766404315726782
+Epoch_70, Accuracy:86.2, Loss = 4.766404315726782
+Epoch_80, Accuracy:86.25, Loss = 4.749135327328042
+Epoch_90, Accuracy:86.25, Loss = 4.749135327328042
+Epoch_100, Accuracy:86.25, Loss = 4.749135327328042
+alpha = 0.001
+Epoch_0, Accuracy:83.25, Loss = 5.78528342682419
+Epoch_10, Accuracy:85.2, Loss = 5.111788081688739
+Epoch_20, Accuracy:85.95, Loss = 4.852750457116629
+Epoch_30, Accuracy:86.15, Loss = 4.783673304125523
+Epoch_40, Accuracy:86.2, Loss = 4.766404315726782
+Epoch_50, Accuracy:86.2, Loss = 4.766404315726782
+Epoch_60, Accuracy:86.25, Loss = 4.749135327328042
+Epoch_70, Accuracy:86.25, Loss = 4.749135327328042
+Epoch_80, Accuracy:86.25, Loss = 4.749135327328042
+Epoch_90, Accuracy:86.25, Loss = 4.749135327328042
+Epoch_100, Accuracy:86.25, Loss = 4.749135327328042
